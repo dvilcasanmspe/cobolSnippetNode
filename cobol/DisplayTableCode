@@ -1,0 +1,15 @@
+       01 DisplayTable.
+          05 DisplayHeader.
+             10 CardHeader.
+                15 FILLER     PIC X(7)    VALUES "TARJETA".
+                15 FILLER     PIC X(9)    VALUES SPACES.
+             10 FILLER        PIC X       VALUES SPACES.
+             10 AmountHeader.
+                15 FILLER     PIC X(5)    VALUES "MONTO".
+                15 FILLER     PIC X(3)    VALUES SPACES.
+             10 FILLER        PIC X       VALUES SPACES.
+             10 MoneyHeader.
+                15 FILLER     PIC X(3)    VALUES "MON".
+             10 FILLER        PIC X       VALUES SPACES.
+             10 DateHeader.
+                15 FILLER     PIC X(5)    VALUES "FECHA".

@@ -1,0 +1,4 @@
+         01 Result.
+            05 ResultDay      PIC 9(2)    VALUES ZEROS.
+            05 FILLER         PIC X       VALUES "-".
+            05 ResultMonth    PIC X(3)    VALUES SPACES.
